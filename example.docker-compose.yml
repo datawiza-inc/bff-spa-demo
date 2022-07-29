@@ -1,0 +1,14 @@
+version: "3"
+services:
+  # Configuration of Datawiza Access Broker image begins here.
+  # Unless you know what you are doing, do not modify this block.
+  # If you need any assistant, please contact: info@datawiza.com
+  datawiza-access-broker:
+    image: registry.gitlab.com/datawiza/access-broker
+    container_name: bff-demo-datawiza-access-broker
+    ports:
+      - 80:80
+    restart: always
+    environment:
+      PROVISIONING_KEY: YOUR_PROVISIONING_KEY # You can find it under Provisioning Keys tab
+      PROVISIONING_SECRET: YOURPROVISIONING_SECRET
