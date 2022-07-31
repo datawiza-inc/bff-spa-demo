@@ -28,12 +28,12 @@ Prior Datawiza Access Broker experience isn’t necessary, but you need:
 ## Run this demo
 
 1. Clone the repo: `git clone https://github.com/datawiza-inc/bff-spa-demo.git`.
-1. Run `npm install` to install all dependencies.
-1. Run `npm start` to start the application.
-1. Follow [tutorial](https://docs.google.com/document/d/1v1gK_KPsmxSh7mU37ogmScIjibH9QL8MxDVVVoMoDLQ/edit#heading=h.2vku5x5y4iho/) to configure on the [Datawiza Management Console](https://console.datawiza.com) and note down the Provisioning key and secret.
-1. Replace the provisioning key and secret in the `example.docker-compose.yml`
-1. Run the `docker-compose -f example.docker-compose.yml up -d` to start the Datawiza Access Broker
-1. Point your browser to `http://spa.demo.datawiza.net:3000` to interactively test your application.
+2. Run `npm install` to install all dependencies.
+3. Run `npm start` to start the application.
+4. Follow [tutorial](https://docs.google.com/document/d/1v1gK_KPsmxSh7mU37ogmScIjibH9QL8MxDVVVoMoDLQ/edit#heading=h.2vku5x5y4iho/) to configure on the [Datawiza Management Console](https://console.datawiza.com) and note down the Provisioning key and secret.
+5. Replace the provisioning key and secret in the `example.docker-compose.yml`
+6. Run the `docker-compose -f example.docker-compose.yml up -d` to start the Datawiza Access Broker
+7. In browser, visit your SPA (e.g., http://spa.demo.datawiza.net:3000 if you have followed the tutorial to change the your local DNS /etc/hosts) to interactively test your application.
 
 ## Support
 
